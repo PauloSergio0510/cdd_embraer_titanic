@@ -140,6 +140,7 @@ A feature sex será utilizada de forma binária, sendo `(1)` mulher e `(0)` home
 
 <p align="justify">Podemos concluir que o projeto alcançou o seu objetivo. 
 Todo o projeto ocorreu como o esperado, esse <b>Desafio do dataset Titanic</b> nos deu uma excelente oportunidade de testar na pratica, os conhecimentos adquiridos em sala de aula. Suas amostras são confirmados pela própria história do ocorrido, e sua acurácia se mostrou na média entre diversos projetos avaliados na competição da Kaggle. Evidentemente, para que se obtenha um modelo com uma acurácia maior, aconselha-se analisar melhor os dados e realizar mais testes com outras bibliotecas de Machine Learning. Para este projeto, o algoritmo de Árvore de Decisão foi o mais eficaz, retornando um bom resultado. Para projetos posteriores, será essencial o estudo mais aprofundado da exploração e preparação dos dados, assim como de outras bibliotecas de Machine Learning, a fim conseguir melhores resultados do que os obtidos neste projeto.</p>
+- Link do Relário - http://abre.ai/be6T
 
 
 ### Equipe Embraer - Univem - CDD - 01/2020
