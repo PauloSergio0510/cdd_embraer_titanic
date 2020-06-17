@@ -120,7 +120,7 @@ A feature sex será utilizada de forma binária, sendo `(1)` mulher e `(0)` home
 
 ![Screenshot](img/015-5.1.PNG)
 
-- Utilizando a regressão logística, obtivemos uma acurácia de 100%
+- Utilizando a regressão logística, obtivemos uma acurácia de 80,13%
 
 3. Importar biblioteca do modelo de Machine Learning `(Árvore de Decisão)`
 
@@ -129,7 +129,7 @@ A feature sex será utilizada de forma binária, sendo `(1)` mulher e `(0)` home
 
 ![Screenshot](img/016-5.2.PNG)
 
-- Utilizando o modelo de árvore de decisão, obtivemos uma acurácia de 100%
+- Utilizando o modelo de árvore de decisão, obtivemos uma acurácia de 82,72%
 
 5. O Time Embraer Sobreviveria?
 
