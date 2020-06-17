@@ -14,11 +14,12 @@ Embora aqueles que escaparam com vida tiveram sua boa dose de sorte, alguns grup
 <h2 align="justify"> Objetivo</h2>
 <p align="justify"> O objetivo deste trabalho é aplicar os conhecimentos adquiridos em sala de aula e apresentar um modelo para análise dos dados referente ao acidente. Utilizando métodos e testes estatísticos para prever a probabilidade de o passageiro ter sobrevivido (1) ou não (0), analisando os resultados e escolhendo um bom modelo que seja satisfatório.</p>
 
+
 ### Instalação do repositório
 
 Para executar local:
 ```bash
-$git clone https://github.com/PauloSergio0510/cdd_embraer_titanic.git
+$ git clone https://github.com/PauloSergio0510/cdd_embraer_titanic.git
 ```
 
 Para acessar no Colab do Google:
@@ -50,61 +51,74 @@ $ apt install python3-tk
 
 ### Exploração dos Dados
 1. Listar a quantidade de variáveis `(colunas)` e o tamanho `(linhas)` do conjunto treinamento `(train.csv)`.
-![energy](./img/001-3.1.png)
+
+![Screenshot](img/001-3.1.PNG)
 
 2. Exibir o tipo de cada variável da Dataframe.
-![energy](./img/002-3.2.png)
+
+![Screenshot](img/002-3.2.PNG)
 
 3. Exibir as 5 primeiras entradas do conjunto de dados.
-![energy](./img/003-3.3.png)
+
+![Screenshot](img/003-3.3.PNG)
 
 4. Exibir a distribuição estatística dos dados:
-![energy](./img/004-3.4.png)
+
+![Screenshot](img/004-3.4.PNG)
 
 5. Exibir histograma das variáveis numéricas:
-![energy](./img/005-3.5.png)
+![Screenshot](img/005-3.5.PNG)
 
 5. 1. Qual a porcentagem dos passageiros sobreviventes?
-![energy](./img/006-3.5.1.png)
+
+![Screenshot](img/006-3.5.1.PNG)
 
 5. 2. Qual a faixa etária dos passageiros do Titanic?
-![energy](./img/007-3.5.2.png)
+
+![Screenshot](img/007-3.5.2.PNG)
 
 5. 3. As Crianças, sobreviveram mais dos que os Adultos?
-![energy](./img/008-3.5.3.png)
+![Screenshot](img/008-3.5.3.PNG)
 
 
 ### Preparação dos Dados
 1. Juntar os conjuntos de dados de treino e teste.
-![energy](./img/009-4.1.png)
+
+![Screenshot](img/009-4.1.PNG)
 
 2. Selecione como recursos.
-![energy](./img/010-4.2.png)
+
+![Screenshot](img/010-4.2.PNG)
 
 3. Exibir os valores ausentes nos conjuntos de dados de treino e teste.
-![energy](./img/011-4.3.png)
+
+![Screenshot](img/011-4.3.PNG)
 
 4. Completar os valores ausentes:
-![energy](./img/012-4.4.png)
+
+![Screenshot](img/012-4.4.PNG)
 
 - Depois de verificado os dados faltantes, iremos imputar essas informações substituindo os valores nulos.
 Para o preenchimento da idade (age) e preço do bilhete (fare), optamos por calcular o valor da mediana para ter uma precisão melhor, já no local de embarque (embarked) adicionamos com o valor de maior frequência
 
 5. Preparar como variáveis ​​para o modelo do Machine Learning.
-![energy](./img/013-4.5.png)
+
+![Screenshot](img/013-4.5.PNG)
 
 - Convertemos a feature embarked para dummies, depois utilizamos o comando get_dummies que realiza a analise dos dados contidos e criar o número apropriado de features, como resultado obtivemos: Embarked_C, Embarked_Q e Embarked_S.
 A feature sex será utilizada de forma binária, sendo `(1)` mulher e `(0)` homem.
 
 6. Recuperar o conjunto de dados de treino e teste.
-![energy](./img/014-4.6.png)
+
+![Screenshot](img/014-4.6.PNG)
 
 ### Modelagem & Avaliação
 1. Importar bibliotecas do modelo de Machine Learning de Regressão Logística.
 
 
 2. Importar biblioteca do modelo de Machine Learning de Árvore de Decisão.
-![energy](./img/015-5.1.png)
+
+![Screenshot](img/015-5.1.PNG)
 
 - Utilizando a regressão logística, obtivemos uma acurácia de 100%
 
@@ -112,9 +126,15 @@ A feature sex será utilizada de forma binária, sendo `(1)` mulher e `(0)` home
 
 
 4. Avaliação do modelo utilizando Árvore de Decisão
-![energy](./img/016-5.2.png)
+
+![Screenshot](img/016-5.2.PNG)
 
 - Utilizando o modelo de árvore de decisão, obtivemos uma acurácia de 100%
+
+5. O Time Embraer Sobreviveria?
+
+![Screenshot](img/017-6.1.PNG)
+
 
 ### Conclusão do Relatório Científico
 
